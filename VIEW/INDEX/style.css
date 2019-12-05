@@ -1,0 +1,167 @@
+.container {
+    /* display: block; */
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+    /* width: 100%; */
+}
+
+.image {
+    width: 150px;
+    height: 75px;
+}
+
+.imghover{
+    width: 224px;
+    height: 327 px;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+.imghover:hover {
+    opacity: 0.5;
+}
+
+.imghover2 {
+    width: 322px;
+    height: 165 px;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+.imghover2:hover {
+    opacity: 0.5;
+}
+
+a, p, label {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover {
+    border-bottom: black;
+    text-decoration: underline;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.submenu {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50%;
+}
+
+.tumbnail {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.etalase {
+    display: flex;
+    justify-content: center;
+}
+
+.etalase::after, .etalase::before {
+    display: table;
+}
+
+.etalase::after {
+    clear: both;
+}
+
+.item1, .item2, .item3, .item4 {
+    padding: 5px;
+}
+
+h2, h4, h5 {
+    text-align: center;
+}
+.foot {
+    display: flex;
+    justify-content: space-between;
+    /* border-top-style: solid;
+    border-top-width: 5px; */
+    padding: 15px;
+    background-color: black;
+}
+        
+.brand {
+    display: flex;
+    justify-content: center;
+}
+
+.brand::after, .brand::before {
+    display: table;
+}
+
+.brand::after {
+    clear: both;
+}
+
+.topbrand1, .topbrand2, .topbrand3 {
+    padding: 7px;
+}
+
+/* .footer{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 500px 150px 150px 500px;
+    row-gap: 20px;
+    column-gap: 20px;
+} */
+
+.footer {
+    background-color: black;
+    display: flex;
+    
+}
+
+/* .footer::after, .footer::before {
+    display: table;
+} */
+
+/* .footer::after {
+    clear: both;
+} */
+
+.foot1, .foot2, .foot3, .foot4 {
+    margin: 10px;
+    border-top-width: 5px;
+    border-top-style: solid;
+} 
+
+.foot1 {
+    width: 700px;
+}
+
+.foot2 {
+    width: 500px;
+}
+
+.foot3 {
+    width: 500px;
+}
+
+.foot4 {
+    width: 700px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
